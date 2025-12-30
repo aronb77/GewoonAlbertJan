@@ -46,11 +46,14 @@ export default function Footer() {
                     <div>
                         <h4 className="text-white font-bold uppercase tracking-wider mb-6">Onze Producten</h4>
                         <ul className="space-y-3">
-                            <li><Link href="/buitenzonwering" className="hover:text-white transition-colors">Solar Rolluiken</Link></li>
-                            <li><Link href="/buitenzonwering" className="hover:text-white transition-colors">Solar Screens</Link></li>
-                            <li><Link href="/buitenzonwering" className="hover:text-white transition-colors">Knikarmschermen</Link></li>
-                            <li><Link href="/raambekleding" className="hover:text-white transition-colors">Gordijnen & Inbetweens</Link></li>
-                            <li><Link href="/horren" className="hover:text-white transition-colors">Horren op maat</Link></li>
+                            <li><Link href="/solar-rolluiken" className="hover:text-white transition-colors">Solar Rolluiken</Link></li>
+                            <li><Link href="/screens" className="hover:text-white transition-colors">Solar Screens</Link></li>
+                            <li><Link href="/knikarmschermen" className="hover:text-white transition-colors">Knikarmschermen</Link></li>
+                            <li><Link href="/uitvalschermen" className="hover:text-white transition-colors">Uitvalschermen</Link></li>
+                            <li><Link href="/markiezen" className="hover:text-white transition-colors">Markiezen</Link></li>
+                            <li><Link href="/pergola" className="hover:text-white transition-colors">Pergola's</Link></li>
+                            <li><Link href="/gordijnen" className="hover:text-white transition-colors">Gordijnen</Link></li>
+                            <li><Link href="/horren" className="hover:text-white transition-colors">Horren</Link></li>
                         </ul>
                     </div>
 
