@@ -3,6 +3,7 @@ import ScreensHeatBlock from "@/components/sections/ScreensHeatBlock";
 import ScreensSolar from "@/components/sections/ScreensSolar";
 import ScreensFabric from "@/components/sections/ScreensFabric";
 import ScreensWindSpecs from "@/components/sections/ScreensWindSpecs";
+import ScreensVersatility from "@/components/sections/ScreensVersatility";
 import ScreensFAQ from "@/components/sections/ScreensFAQ";
 import ScreensCTA from "@/components/sections/ScreensCTA";
 
@@ -15,6 +16,7 @@ export default function Page() {
             <ScreensSolar />
             <ScreensFabric />
             <ScreensWindSpecs />
+            <ScreensVersatility />
             <ScreensFAQ />
             <ScreensCTA />
         </div>
