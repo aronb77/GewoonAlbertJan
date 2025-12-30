@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Wind, Eye, Sun, ArrowRight, MousePointerClick } from "lucide-react";
+import { Wind, Eye, Sun, ArrowRight, MousePointerClick, Thermometer } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -41,9 +41,9 @@ export default function ScreensHero() {
                         transition={{ delay: 0.1 }}
                         className="text-4xl md:text-6xl font-bold font-robotoslab text-primary leading-tight mb-6"
                     >
-                        Wel het uitzicht, <br />
+                        De toekomst is draadloos:<br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500">
-                            niet de hitte.
+                            Solar Screens.
                         </span>
                     </motion.h1>
 
@@ -53,7 +53,7 @@ export default function ScreensHero() {
                         transition={{ delay: 0.2 }}
                         className="text-lg text-secondary opacity-80 mb-8 leading-relaxed"
                     >
-                        Geniet van een koel huis zonder opgesloten te zitten. Onze windvaste rits-screens filteren de zon, maar behouden uw zicht naar buiten. De ideale zonwering voor Oldebroek, Wezep en Zwolle.
+                        Houd uw woning koel met de kracht van de zon. Onze windvaste rits-screens werken 100% op zonne-energie. Dat betekent: geen kabels, geen stroomkosten en geen gaten door uw kozijnen.
                     </motion.p>
 
                     {/* USPs Grid */}
@@ -71,15 +71,15 @@ export default function ScreensHero() {
                         </div>
                         <div className="flex items-center gap-3">
                             <div className="w-10 h-10 rounded-lg bg-orange-50 text-orange-600 flex items-center justify-center shrink-0">
-                                <Eye className="w-5 h-5" />
+                                <Sun className="w-5 h-5" />
                             </div>
-                            <span className="font-bold text-primary">Transparant van binnenuit</span>
+                            <span className="font-bold text-primary">100% Draadloos & Duurzaam</span>
                         </div>
                         <div className="flex items-center gap-3">
                             <div className="w-10 h-10 rounded-lg bg-red-50 text-red-600 flex items-center justify-center shrink-0">
-                                <Sun className="w-5 h-5" />
+                                <Thermometer className="w-5 h-5" />
                             </div>
-                            <span className="font-bold text-primary">Weert 90% warmte</span>
+                            <span className="font-bold text-primary">Weert 90% hitte</span>
                         </div>
                     </motion.div>
 

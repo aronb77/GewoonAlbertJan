@@ -1,5 +1,6 @@
 import ScreensHero from "@/components/sections/ScreensHero";
 import ScreensHeatBlock from "@/components/sections/ScreensHeatBlock";
+import ScreensSolar from "@/components/sections/ScreensSolar";
 import ScreensFabrics from "@/components/sections/ScreensFabrics";
 import ScreensWindSpecs from "@/components/sections/ScreensWindSpecs";
 import ScreensFAQ from "@/components/sections/ScreensFAQ";
@@ -11,6 +12,7 @@ export default function Page() {
             <ScreensHero />
 
             <ScreensHeatBlock />
+            <ScreensSolar />
             <ScreensFabrics />
             <ScreensWindSpecs />
             <ScreensFAQ />

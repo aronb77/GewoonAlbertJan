@@ -25,12 +25,11 @@ const ScreensWindSpecs = () => {
                             Ritz-Technologie
                         </div>
                         <h2 className="text-3xl md:text-5xl font-bold font-robotoslab mb-6 leading-tight">
-                            Stormvast tot <span className="text-secondary-500">145 km/u</span>.
+                            Windvast & <span className="text-secondary-500">Krachtig</span>.
                         </h2>
                         <p className="text-slate-300 text-lg mb-8 leading-relaxed">
-                            Onze screens zijn uitgerust met de innovatieve <strong>Zip-technologie</strong>.
-                            Het doek zit stevig verankerd in de geleiders, waardoor het strak blijft staan,
-                            zelfs bij krachtige windstoten. Geen klapperende doeken, geen scheuren.
+                            Onderschat de Solar-motor niet. Hij is speciaal ontwikkeld om de weerstand van rits-screens te dragen.
+                            Het doek staat altijd strak gespannen en is windvast, zonder dat het de accu leegtrekt.
                         </p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -52,8 +51,8 @@ const ScreensWindSpecs = () => {
                                 },
                                 {
                                     icon: Zap,
-                                    title: "Geluiddempend",
-                                    desc: "Geen geklapper of resonantie bij wind.",
+                                    title: "Geen Koudebrug",
+                                    desc: "Geen gaten in de muur = geen tocht of isolatieverlies.",
                                 },
                             ].map((item, idx) => (
                                 <div key={idx} className="flex gap-4">
