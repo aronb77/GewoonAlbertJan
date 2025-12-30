@@ -1,4 +1,5 @@
 import CurtainsHero from "@/components/sections/CurtainsHero";
+import CurtainsTypes from "@/components/sections/CurtainsTypes";
 
 export const metadata = {
     title: 'Gordijnen op Maat | Gewoon Albert Jan',
@@ -9,6 +10,7 @@ export default function GordijnenPage() {
     return (
         <main>
             <CurtainsHero />
+            <CurtainsTypes />
 
             {/* Placeholder for future sections */}
             <div className="py-24 text-center text-stone-400 bg-stone-50 border-t border-stone-200 font-robotoslab">
