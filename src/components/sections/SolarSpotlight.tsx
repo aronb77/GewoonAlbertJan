@@ -137,7 +137,7 @@ export default function SolarSpotlight() {
 
                         {/* Active Flowing Energy Particle */}
                         <motion.circle r="6" fill="#FFFFFF" filter="url(#glow)">
-                            <motion.animateMotion
+                            <animateMotion
                                 path="M 200 130 C 200 130, 200 230, 200 330"
                                 dur="2s"
                                 repeatCount="indefinite"
