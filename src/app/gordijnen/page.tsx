@@ -3,6 +3,7 @@ import CurtainsTypes from "@/components/sections/CurtainsTypes";
 import CurtainsConfection from "@/components/sections/CurtainsConfection";
 import CurtainsRails from "@/components/sections/CurtainsRails";
 import CurtainsComfort from "@/components/sections/CurtainsComfort";
+import CurtainsFAQ from "@/components/sections/CurtainsFAQ";
 
 export const metadata = {
     title: 'Gordijnen op Maat | Gewoon Albert Jan',
@@ -17,11 +18,7 @@ export default function GordijnenPage() {
             <CurtainsConfection />
             <CurtainsRails />
             <CurtainsComfort />
-
-            {/* Placeholder for future sections */}
-            <div className="py-24 text-center text-stone-400 bg-stone-50 border-t border-stone-200 font-robotoslab">
-                <p>Meer secties (Collectie, Stoffen, Advies) volgen binnenkort...</p>
-            </div>
+            <CurtainsFAQ />
         </main>
     );
 }
