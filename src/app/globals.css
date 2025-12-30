@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1F2D3A;
+  --color-secondary: #2F2F2F;
+  --color-background: #F7F3E9;
+  --color-accent: #C76A3E;
+  --color-highlight: #A3C6D6;
+
+  --font-robotoslab: var(--font-roboto-slab);
+  --font-roboto: var(--font-roboto);
+}
+
+:root {
+  /* No custom vars needed here if using TS-based theme mapping or direct Tailwind classes, 
+     but keeping the mapping clear for the @theme block above */
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-secondary);
+  font-family: var(--font-roboto), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-robotoslab), serif;
+  color: var(--color-primary);
+}
