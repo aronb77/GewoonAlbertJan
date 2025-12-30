@@ -1,6 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import MarkiezenHero from '@/components/sections/MarkiezenHero';
+import MarkiezenFunction from '@/components/sections/MarkiezenFunction';
 
 export const metadata: Metadata = {
     title: 'Markiezen | Gewoon Albert Jan',
@@ -11,6 +12,7 @@ export default function MarkiezenPage() {
     return (
         <main>
             <MarkiezenHero />
+            <MarkiezenFunction />
 
             {/* Placeholder for future sections */}
             <div className="py-24 text-center text-stone-400 bg-stone-50 border-t border-stone-200 font-robotoslab">
