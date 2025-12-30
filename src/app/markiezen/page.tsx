@@ -4,6 +4,7 @@ import MarkiezenHero from '@/components/sections/MarkiezenHero';
 import MarkiezenFunction from '@/components/sections/MarkiezenFunction';
 import MarkiezenMaterials from '@/components/sections/MarkiezenMaterials';
 import MarkiezenDesign from '@/components/sections/MarkiezenDesign';
+import MarkiezenControl from '@/components/sections/MarkiezenControl';
 
 export const metadata: Metadata = {
     title: 'Markiezen | Gewoon Albert Jan',
@@ -17,6 +18,7 @@ export default function MarkiezenPage() {
             <MarkiezenFunction />
             <MarkiezenMaterials />
             <MarkiezenDesign />
+            <MarkiezenControl />
 
             {/* Placeholder for future sections */}
             <div className="py-24 text-center text-stone-400 bg-stone-50 border-t border-stone-200 font-robotoslab">
